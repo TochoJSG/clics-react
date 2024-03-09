@@ -1,0 +1,30 @@
+button{
+    width: 250px;
+    height: 80px;
+    font-size: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: burlywood;
+}
+.btn.clic{
+    background-color: blue;
+}
+.btn-reinicio{
+    background-color: red;
+}
+.contenedor-principal{
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
